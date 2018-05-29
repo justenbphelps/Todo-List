@@ -20,6 +20,6 @@ $(document).ready(function(){
     })
 
     $('#plusButton').click(function(){
-        $('input[type=text]').fadeToggle()
+        $('input[type=text]').fadeToggle(100)
     })
 })
